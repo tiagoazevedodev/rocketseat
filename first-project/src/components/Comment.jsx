@@ -1,11 +1,10 @@
 import { ThumbsUp, Trash } from "phosphor-react";
-
+import { Avatar } from "./Avatar";
 
 export function Comment() {
   return (
     <div className="mt-6 flex gap-4">
-      <img
-        className="size-12 rounded-lg"
+      <Avatar
         src="https://github.com/tiagoazevedodev.png"
       />
       <div className="flex-1">
